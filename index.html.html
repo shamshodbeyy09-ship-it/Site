@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabrina ✦</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-star">✦</div>
+    <p>Sabrina uchun sahifa tayyorlanmoqda...</p>
+  </div>
+
+  <canvas id="stars"></canvas>
+  <div class="nebula n1"></div>
+  <div class="nebula n2"></div>
+
+  <header class="navbar">
+    <div class="logo"><span>✦</span> SABRINA</div>
+    <button class="music-btn" id="musicBtn">♫ <span>Musiqani yoqish</span></button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content reveal">
+        <p class="eyebrow">✦ THIS PAGE IS FOR YOU ✦</p>
+        <h1>Salom,<br><em>Sabrina.</em></h1>
+        <p class="hero-text">
+          Ba'zi insonlar hayotimizga shunchaki kirib kelmaydi.
+          Ular oddiy kunlarni ham esda qoladigan lahzalarga aylantiradi.
+        </p>
+        <button class="discover" onclick="goTo('message')">
+          <span>Hikoyani boshlash</span><b>↓</b>
+        </button>
+      </div>
+
+      <div class="photo-wrap reveal">
+        <div class="orbit o1"></div>
+        <div class="orbit o2"></div>
+        <div class="photo-glow"></div>
+        <div class="photo-card">
+          <div class="corner tl"></div><div class="corner tr"></div>
+          <div class="corner bl"></div><div class="corner br"></div>
+          <img src="images/sabrina.png" alt="Sabrina">
+          <div class="photo-caption"><span>✦</span> SABRINA</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="message section reveal" id="message">
+      <p class="number">01</p>
+      <p class="eyebrow">A LITTLE MESSAGE</p>
+      <h2>Bu sahifa oddiy sayt emas...</h2>
+      <div class="message-box">
+        <div class="quote">“</div>
+        <p>
+          Katta-katta gaplardan ko‘ra, chin dildan aytilgan oddiy so‘zlar
+          ko‘proq esda qoladi. Shuning uchun bu sahifa aynan sen uchun
+          kichik bir raqamli xotira bo‘lsin.
+        </p>
+        <div class="line"></div>
+        <p class="signature">— Sabrina uchun ✦</p>
+      </div>
+    </section>
+
+    <section class="moments section reveal">
+      <p class="number">02</p>
+      <p class="eyebrow">LITTLE THINGS</p>
+      <h2>Oddiy lahzalar,<br><em>chiroyli xotiralar.</em></h2>
+
+      <div class="cards">
+        <article class="card">
+          <div class="icon">✦</div>
+          <h3>Tabassum</h3>
+          <p>Ba'zan bitta tabassum butun kunni chiroyli qilib yuboradi.</p>
+        </article>
+        <article class="card featured">
+          <div class="icon">∞</div>
+          <h3>Lahzalar</h3>
+          <p>Eng yaxshi xotiralar ko‘pincha rejalashtirilmagan paytda paydo bo‘ladi.</p>
+        </article>
+        <article class="card">
+          <div class="icon">♡</div>
+          <h3>Xotira</h3>
+          <p>Vaqt o‘tadi, lekin ayrim insonlar xotirada qolaveradi.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="big-photo reveal">
+      <img src="images/sabrina.png" alt="Sabrina">
+      <div class="photo-shade"></div>
+      <div class="big-caption">
+        <span>ONE OF A KIND</span>
+        <h2>Sabrina <i>✦</i></h2>
+      </div>
+    </section>
+
+    <section class="final section reveal">
+      <div class="stars-title">✦　·　✧　·　✦</div>
+      <p class="eyebrow">THE NEXT PAGE</p>
+      <h2>Balki bu<br><em>faqat boshlanishidir.</em></h2>
+      <p class="final-text">
+        Ba'zi hikoyalarning oxiri bo‘lmaydi.
+        Ular shunchaki yangi sahifaga aylanadi.
+      </p>
+      <button class="top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+    </section>
+  </main>
+
+  <footer>Made with ✦ for Sabrina</footer>
+
+  <audio id="music" loop preload="auto">
+    <source src="i-wanna-be-yours.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
